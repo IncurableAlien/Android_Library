@@ -21,7 +21,7 @@ android {
 }
 
 group = 'com.helloio.library'
-version = '1.0.0'
+version = '1.0.1'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
@@ -61,14 +61,14 @@ bintray {
         name = 'com.helloio.androidlibrary'
 
         version {
-            name = 'v1.0.0'
+            name = 'v1.0.1'
             desc = "Y android library"
-            released = "20160803"
-            vcsTag = "1.0.0"
+            released = "2016/08/04"
+            vcsTag = "1.0.1"
         }
 
         licenses = ['Apache-2.0']
-        vcsUrl = 'https://github.com/IncurableAlien/Android_Develop.git'
+        vcsUrl = 'https://github.com/IncurableAlien/Android_Library.git'
         websiteUrl = 'http://bellsong.github.io/'
     }
 
