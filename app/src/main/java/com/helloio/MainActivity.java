@@ -14,6 +14,8 @@ public class MainActivity extends AppCompatActivity {
 
         HelloDatabaseUtil.copyDataBaseToPhone(this);
         HelloDatabaseUtil.testCopyResult();
+        String a = new String();
+        a.concat("as");
 
     }
 }
