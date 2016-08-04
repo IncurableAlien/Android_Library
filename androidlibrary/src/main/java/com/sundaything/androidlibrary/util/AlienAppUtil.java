@@ -15,9 +15,9 @@ import java.io.File;
  * @Email bellsong@foxmail.com
  * @Date 16/8/4 15:48
  */
-public class AppUtil {
+public class AlienAppUtil {
 
-    private AppUtil() {
+    private AlienAppUtil() {
         throw new UnsupportedOperationException("You can not new this Object, because all method is static.");
     }
 
@@ -25,8 +25,8 @@ public class AppUtil {
      * 安装指定路径下的Apk
      * 根据路径名是否符合和文件是否存在判断是否安装成功
      * @param context
-     * @param filePath
-     * @return
+     * @param filePath 需要安装apk的绝对路径
+     * @return 是否安装成功
      */
     public static boolean installApp(Context context, String filePath) {
         if (!TextUtils.isEmpty(filePath)
