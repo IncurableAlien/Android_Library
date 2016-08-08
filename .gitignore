@@ -6,3 +6,10 @@
 .DS_Store
 /build
 /captures
+androidlibrary/.idea/
+.idea/
+androidlibrary/gradle/
+gradle/
+gradlew
+gradlew.bat
+androidlibrary/local.properties
